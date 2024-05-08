@@ -1,0 +1,136 @@
+*{
+    box-sizing:content-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container{
+    width: 100vw;
+    position: fixed;
+    background-color: white;
+}
+
+body{
+    height: 200vh;
+    background-color: rgb(240, 233, 233);
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    width: 80%;
+    margin: 12px auto;
+   
+}
+
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a{
+    margin: 0 24px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-contact{
+    background-color: rgb(172, 60, 7);
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.nav-contact a{
+    color: white;
+    margin: 0 5px;
+}
+
+
+/* Hero Section */
+
+
+.hero-section{
+   /* background-color: yellow; */
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text{
+    width: 50%;
+}
+
+
+.hero-image{
+    /* background-color: red; */
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-image img{
+    width: 70%;
+
+}
+
+.hero-title{
+    font-size: 3em;
+    margin-bottom: 1.3em;
+    color: rgb(172, 60, 7);
+}
+
+.hero-description{
+    font-size: 1.5em;
+    word-spacing: 8px;
+    line-height: 1.2em;
+}
+
+
+/* work section */
+
+.work{
+    background-color: rgb(172, 60, 7);
+    height: 50vh;
+
+}
+
+.work-wrapper{
+    width: 80%;
+    margin:  0 auto;
+}
+
+.work-title{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    padding: 12px 0;
+}
+
+.work-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.work-card{
+    min-width: 5em;
+    width: 100%;
+    margin: 0 12px;
+    min-height: 5em;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column ;
+}
+
+.work-icon{
+    background-color: rgb(172, 60, 7);
+
+    border-radius: 100%;
+} 
+
